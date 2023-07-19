@@ -20,6 +20,9 @@
 		4672447B2A681F520049418A /* Big5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447A2A681F520049418A /* Big5Controller.swift */; };
 		4672447D2A681F730049418A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447C2A681F730049418A /* QuestionView.swift */; };
 		4672447F2A681F820049418A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447E2A681F820049418A /* TestView.swift */; };
+		467244812A6831300049418A /* TestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244802A6831300049418A /* TestResult.swift */; };
+		467244832A6831800049418A /* TestValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244822A6831800049418A /* TestValidator.swift */; };
+		467244852A6831930049418A /* TestSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244842A6831930049418A /* TestSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		4672447A2A681F520049418A /* Big5Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big5Controller.swift; sourceTree = "<group>"; };
 		4672447C2A681F730049418A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		4672447E2A681F820049418A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		467244802A6831300049418A /* TestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResult.swift; sourceTree = "<group>"; };
+		467244822A6831800049418A /* TestValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValidator.swift; sourceTree = "<group>"; };
+		467244842A6831930049418A /* TestSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 				4672447A2A681F520049418A /* Big5Controller.swift */,
 				4672447C2A681F730049418A /* QuestionView.swift */,
 				4672447E2A681F820049418A /* TestView.swift */,
+				467244802A6831300049418A /* TestResult.swift */,
+				467244822A6831800049418A /* TestValidator.swift */,
+				467244842A6831930049418A /* TestSaver.swift */,
 			);
 			path = ExploreSelf;
 			sourceTree = "<group>";
@@ -275,7 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467244852A6831930049418A /* TestSaver.swift in Sources */,
+				467244812A6831300049418A /* TestResult.swift in Sources */,
 				467244532A67EAE10049418A /* Persistence.swift in Sources */,
+				467244832A6831800049418A /* TestValidator.swift in Sources */,
 				467244792A681F3D0049418A /* Big5Models.swift in Sources */,
 				4672447B2A681F520049418A /* Big5Controller.swift in Sources */,
 				4672447D2A681F730049418A /* QuestionView.swift in Sources */,
