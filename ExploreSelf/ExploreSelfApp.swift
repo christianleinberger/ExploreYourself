@@ -1,10 +1,3 @@
-//
-//  ExploreSelfApp.swift
-//  ExploreSelf
-//
-//  Created by Christian Leinberger on 19.07.23.
-//
-
 import SwiftUI
 
 @main
@@ -13,8 +6,9 @@ struct ExploreSelfApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TestView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+

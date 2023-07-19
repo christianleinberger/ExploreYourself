@@ -22,7 +22,9 @@ struct TestView: View {
             ForEach(0..<5) { choiceIndex in
                 Button(action: {
                     self.answers[self.currentQuestionIndex] = choiceIndex
-                    self.currentQuestionIndex += 1
+                    if self.currentQuestionIndex < Question.allQuestions.count - 1 {
+                        self.currentQuestionIndex += 1
+                    }
                 }) {
                     Text(Choice.allChoices["plus"]?[choiceIndex].text ?? "")
                 }
@@ -30,3 +32,4 @@ struct TestView: View {
         }
     }
 }
+
