@@ -3,6 +3,7 @@ import SwiftUI
 struct TestView: View {
     @State private var currentQuestionIndex = 0
     @State private var answers: [Int] = Array(repeating: 0, count: Question.allQuestions.count)
+    @State private var showResults = false
 
     var body: some View {
         VStack {
@@ -24,9 +25,17 @@ struct TestView: View {
                     self.answers[self.currentQuestionIndex] = choiceIndex
                     if self.currentQuestionIndex < Question.allQuestions.count - 1 {
                         self.currentQuestionIndex += 1
+                    } else {
+                        self.showResults = true
                     }
                 }) {
                     Text(Choice.allChoices["plus"]?[choiceIndex].text ?? "")
+                }
+            }
+
+            if showResults {
+                NavigationLink(destination: ResultView(), isActive: $showResults) {
+                    Text("Show Results")
                 }
             }
         }
