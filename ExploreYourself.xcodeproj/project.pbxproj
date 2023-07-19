@@ -16,6 +16,10 @@
 		467244602A67EAE10049418A /* ExploreSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672445F2A67EAE10049418A /* ExploreSelfTests.swift */; };
 		4672446A2A67EAE10049418A /* ExploreSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244692A67EAE10049418A /* ExploreSelfUITests.swift */; };
 		4672446C2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672446B2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift */; };
+		467244792A681F3D0049418A /* Big5Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244782A681F3D0049418A /* Big5Models.swift */; };
+		4672447B2A681F520049418A /* Big5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447A2A681F520049418A /* Big5Controller.swift */; };
+		4672447D2A681F730049418A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447C2A681F730049418A /* QuestionView.swift */; };
+		4672447F2A681F820049418A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672447E2A681F820049418A /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		467244652A67EAE10049418A /* ExploreYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467244692A67EAE10049418A /* ExploreSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfUITests.swift; sourceTree = "<group>"; };
 		4672446B2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		467244782A681F3D0049418A /* Big5Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big5Models.swift; sourceTree = "<group>"; };
+		4672447A2A681F520049418A /* Big5Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Big5Controller.swift; sourceTree = "<group>"; };
+		4672447C2A681F730049418A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		4672447E2A681F820049418A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,10 @@
 				467244522A67EAE10049418A /* Persistence.swift */,
 				467244542A67EAE10049418A /* ExploreSelf.xcdatamodeld */,
 				4672444F2A67EAE10049418A /* Preview Content */,
+				467244782A681F3D0049418A /* Big5Models.swift */,
+				4672447A2A681F520049418A /* Big5Controller.swift */,
+				4672447C2A681F730049418A /* QuestionView.swift */,
+				4672447E2A681F820049418A /* TestView.swift */,
 			);
 			path = ExploreSelf;
 			sourceTree = "<group>";
@@ -264,6 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				467244532A67EAE10049418A /* Persistence.swift in Sources */,
+				467244792A681F3D0049418A /* Big5Models.swift in Sources */,
+				4672447B2A681F520049418A /* Big5Controller.swift in Sources */,
+				4672447D2A681F730049418A /* QuestionView.swift in Sources */,
+				4672447F2A681F820049418A /* TestView.swift in Sources */,
 				467244562A67EAE10049418A /* ExploreSelf.xcdatamodeld in Sources */,
 				4672444C2A67EADF0049418A /* ContentView.swift in Sources */,
 				4672444A2A67EADF0049418A /* ExploreSelfApp.swift in Sources */,
