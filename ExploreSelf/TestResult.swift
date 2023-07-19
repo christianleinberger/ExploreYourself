@@ -1,16 +1,16 @@
+import Foundation
+
+struct Answer: Codable {
+    let questionId: String
+    let choice: String
+}
+
 struct TestResult: Codable {
     let testId: String
     let lang: String
     let invalid: Bool
     let answers: [Answer]
-    let timeElapsed: Any
+    let timeElapsed: Double
     let dateStamp: Int
-}
-
-struct Answer: Codable {
-    let questionID: String
-    let domain: String
-    let facet: Int
-    let score: Int
 }
 
