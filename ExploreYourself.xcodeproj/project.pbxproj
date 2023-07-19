@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		467244462A67EADF0049418A /* ExploreSelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreSelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467244462A67EADF0049418A /* ExploreYourself.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreYourself.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467244492A67EADF0049418A /* ExploreSelfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfApp.swift; sourceTree = "<group>"; };
 		4672444B2A67EADF0049418A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4672444D2A67EAE10049418A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467244502A67EAE10049418A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		467244522A67EAE10049418A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		467244552A67EAE10049418A /* ExploreSelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExploreSelf.xcdatamodel; sourceTree = "<group>"; };
-		4672445B2A67EAE10049418A /* ExploreSelfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreSelfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4672445B2A67EAE10049418A /* ExploreYourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreYourselfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4672445F2A67EAE10049418A /* ExploreSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfTests.swift; sourceTree = "<group>"; };
-		467244652A67EAE10049418A /* ExploreSelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreSelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		467244652A67EAE10049418A /* ExploreYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		467244692A67EAE10049418A /* ExploreSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfUITests.swift; sourceTree = "<group>"; };
 		4672446B2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,9 +88,9 @@
 		467244472A67EADF0049418A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				467244462A67EADF0049418A /* ExploreSelf.app */,
-				4672445B2A67EAE10049418A /* ExploreSelfTests.xctest */,
-				467244652A67EAE10049418A /* ExploreSelfUITests.xctest */,
+				467244462A67EADF0049418A /* ExploreYourself.app */,
+				4672445B2A67EAE10049418A /* ExploreYourselfTests.xctest */,
+				467244652A67EAE10049418A /* ExploreYourselfUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		467244452A67EADF0049418A /* ExploreSelf */ = {
+		467244452A67EADF0049418A /* ExploreYourself */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4672446F2A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelf" */;
+			buildConfigurationList = 4672446F2A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourself" */;
 			buildPhases = (
 				467244422A67EADF0049418A /* Sources */,
 				467244432A67EADF0049418A /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = ExploreSelf;
+			name = ExploreYourself;
 			productName = ExploreSelf;
-			productReference = 467244462A67EADF0049418A /* ExploreSelf.app */;
+			productReference = 467244462A67EADF0049418A /* ExploreYourself.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4672445A2A67EAE10049418A /* ExploreSelfTests */ = {
+		4672445A2A67EAE10049418A /* ExploreYourselfTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 467244722A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelfTests" */;
+			buildConfigurationList = 467244722A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourselfTests" */;
 			buildPhases = (
 				467244572A67EAE10049418A /* Sources */,
 				467244582A67EAE10049418A /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				4672445D2A67EAE10049418A /* PBXTargetDependency */,
 			);
-			name = ExploreSelfTests;
+			name = ExploreYourselfTests;
 			productName = ExploreSelfTests;
-			productReference = 4672445B2A67EAE10049418A /* ExploreSelfTests.xctest */;
+			productReference = 4672445B2A67EAE10049418A /* ExploreYourselfTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		467244642A67EAE10049418A /* ExploreSelfUITests */ = {
+		467244642A67EAE10049418A /* ExploreYourselfUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 467244752A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelfUITests" */;
+			buildConfigurationList = 467244752A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourselfUITests" */;
 			buildPhases = (
 				467244612A67EAE10049418A /* Sources */,
 				467244622A67EAE10049418A /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				467244672A67EAE10049418A /* PBXTargetDependency */,
 			);
-			name = ExploreSelfUITests;
+			name = ExploreYourselfUITests;
 			productName = ExploreSelfUITests;
-			productReference = 467244652A67EAE10049418A /* ExploreSelfUITests.xctest */;
+			productReference = 467244652A67EAE10049418A /* ExploreYourselfUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 467244412A67EADF0049418A /* Build configuration list for PBXProject "ExploreSelf" */;
+			buildConfigurationList = 467244412A67EADF0049418A /* Build configuration list for PBXProject "ExploreYourself" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				467244452A67EADF0049418A /* ExploreSelf */,
-				4672445A2A67EAE10049418A /* ExploreSelfTests */,
-				467244642A67EAE10049418A /* ExploreSelfUITests */,
+				467244452A67EADF0049418A /* ExploreYourself */,
+				4672445A2A67EAE10049418A /* ExploreYourselfTests */,
+				467244642A67EAE10049418A /* ExploreYourselfUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		4672445D2A67EAE10049418A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 467244452A67EADF0049418A /* ExploreSelf */;
+			target = 467244452A67EADF0049418A /* ExploreYourself */;
 			targetProxy = 4672445C2A67EAE10049418A /* PBXContainerItemProxy */;
 		};
 		467244672A67EAE10049418A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 467244452A67EADF0049418A /* ExploreSelf */;
+			target = 467244452A67EADF0049418A /* ExploreYourself */;
 			targetProxy = 467244662A67EAE10049418A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreSelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreSelf";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreYourself.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreYourself";
 			};
 			name = Debug;
 		};
@@ -511,7 +511,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreSelf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreSelf";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExploreYourself.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExploreYourself";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		467244412A67EADF0049418A /* Build configuration list for PBXProject "ExploreSelf" */ = {
+		467244412A67EADF0049418A /* Build configuration list for PBXProject "ExploreYourself" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4672446D2A67EAE10049418A /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4672446F2A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelf" */ = {
+		4672446F2A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourself" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				467244702A67EAE10049418A /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		467244722A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelfTests" */ = {
+		467244722A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourselfTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				467244732A67EAE10049418A /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		467244752A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreSelfUITests" */ = {
+		467244752A67EAE10049418A /* Build configuration list for PBXNativeTarget "ExploreYourselfUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				467244762A67EAE10049418A /* Debug */,
