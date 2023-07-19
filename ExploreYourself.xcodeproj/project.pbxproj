@@ -24,7 +24,6 @@
 		467244832A6831800049418A /* TestValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244822A6831800049418A /* TestValidator.swift */; };
 		467244852A6831930049418A /* TestSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244842A6831930049418A /* TestSaver.swift */; };
 		467244872A6868220049418A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244862A6868220049418A /* ResultView.swift */; };
-		467244892A686CDB0049418A /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244882A686CDB0049418A /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 		467244822A6831800049418A /* TestValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValidator.swift; sourceTree = "<group>"; };
 		467244842A6831930049418A /* TestSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSaver.swift; sourceTree = "<group>"; };
 		467244862A6868220049418A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
-		467244882A686CDB0049418A /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +128,6 @@
 				467244822A6831800049418A /* TestValidator.swift */,
 				467244842A6831930049418A /* TestSaver.swift */,
 				467244862A6868220049418A /* ResultView.swift */,
-				467244882A686CDB0049418A /* NavigationView.swift */,
 			);
 			path = ExploreSelf;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 				4672447B2A681F520049418A /* Big5Controller.swift in Sources */,
 				4672447D2A681F730049418A /* QuestionView.swift in Sources */,
 				4672447F2A681F820049418A /* TestView.swift in Sources */,
-				467244892A686CDB0049418A /* NavigationView.swift in Sources */,
 				467244562A67EAE10049418A /* ExploreSelf.xcdatamodeld in Sources */,
 				4672444C2A67EADF0049418A /* ContentView.swift in Sources */,
 				4672444A2A67EADF0049418A /* ExploreSelfApp.swift in Sources */,

@@ -6,8 +6,10 @@ struct ExploreSelfApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TestView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                TestView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
 }
