@@ -12,7 +12,6 @@
 		4672444E2A67EAE10049418A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4672444D2A67EAE10049418A /* Assets.xcassets */; };
 		467244512A67EAE10049418A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467244502A67EAE10049418A /* Preview Assets.xcassets */; };
 		467244532A67EAE10049418A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244522A67EAE10049418A /* Persistence.swift */; };
-		467244562A67EAE10049418A /* ExploreSelf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 467244542A67EAE10049418A /* ExploreSelf.xcdatamodeld */; };
 		467244602A67EAE10049418A /* ExploreSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672445F2A67EAE10049418A /* ExploreSelfTests.swift */; };
 		4672446A2A67EAE10049418A /* ExploreSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244692A67EAE10049418A /* ExploreSelfUITests.swift */; };
 		4672446C2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4672446B2A67EAE10049418A /* ExploreSelfUITestsLaunchTests.swift */; };
@@ -24,6 +23,7 @@
 		467244832A6831800049418A /* TestValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244822A6831800049418A /* TestValidator.swift */; };
 		467244852A6831930049418A /* TestSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244842A6831930049418A /* TestSaver.swift */; };
 		467244872A6868220049418A /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467244862A6868220049418A /* ResultView.swift */; };
+		4672448C2A6951470049418A /* Big5Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4672448A2A6951470049418A /* Big5Data.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 		4672444D2A67EAE10049418A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467244502A67EAE10049418A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		467244522A67EAE10049418A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		467244552A67EAE10049418A /* ExploreSelf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExploreSelf.xcdatamodel; sourceTree = "<group>"; };
 		4672445B2A67EAE10049418A /* ExploreYourselfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreYourselfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4672445F2A67EAE10049418A /* ExploreSelfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreSelfTests.swift; sourceTree = "<group>"; };
 		467244652A67EAE10049418A /* ExploreYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +63,7 @@
 		467244822A6831800049418A /* TestValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValidator.swift; sourceTree = "<group>"; };
 		467244842A6831930049418A /* TestSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSaver.swift; sourceTree = "<group>"; };
 		467244862A6868220049418A /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		4672448B2A6951470049418A /* Big5Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Big5Data.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,6 @@
 				4672444B2A67EADF0049418A /* ContentView.swift */,
 				4672444D2A67EAE10049418A /* Assets.xcassets */,
 				467244522A67EAE10049418A /* Persistence.swift */,
-				467244542A67EAE10049418A /* ExploreSelf.xcdatamodeld */,
 				4672444F2A67EAE10049418A /* Preview Content */,
 				467244782A681F3D0049418A /* Big5Models.swift */,
 				4672447A2A681F520049418A /* Big5Controller.swift */,
@@ -128,6 +127,7 @@
 				467244822A6831800049418A /* TestValidator.swift */,
 				467244842A6831930049418A /* TestSaver.swift */,
 				467244862A6868220049418A /* ResultView.swift */,
+				4672448A2A6951470049418A /* Big5Data.xcdatamodeld */,
 			);
 			path = ExploreSelf;
 			sourceTree = "<group>";
@@ -288,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				467244852A6831930049418A /* TestSaver.swift in Sources */,
+				4672448C2A6951470049418A /* Big5Data.xcdatamodeld in Sources */,
 				467244812A6831300049418A /* TestResult.swift in Sources */,
 				467244532A67EAE10049418A /* Persistence.swift in Sources */,
 				467244832A6831800049418A /* TestValidator.swift in Sources */,
@@ -296,7 +297,6 @@
 				4672447B2A681F520049418A /* Big5Controller.swift in Sources */,
 				4672447D2A681F730049418A /* QuestionView.swift in Sources */,
 				4672447F2A681F820049418A /* TestView.swift in Sources */,
-				467244562A67EAE10049418A /* ExploreSelf.xcdatamodeld in Sources */,
 				4672444C2A67EADF0049418A /* ContentView.swift in Sources */,
 				4672444A2A67EADF0049418A /* ExploreSelfApp.swift in Sources */,
 			);
@@ -625,13 +625,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		467244542A67EAE10049418A /* ExploreSelf.xcdatamodeld */ = {
+		4672448A2A6951470049418A /* Big5Data.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				467244552A67EAE10049418A /* ExploreSelf.xcdatamodel */,
+				4672448B2A6951470049418A /* Big5Data.xcdatamodel */,
 			);
-			currentVersion = 467244552A67EAE10049418A /* ExploreSelf.xcdatamodel */;
-			path = ExploreSelf.xcdatamodeld;
+			currentVersion = 4672448B2A6951470049418A /* Big5Data.xcdatamodel */;
+			path = Big5Data.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
